@@ -39,7 +39,7 @@ export default function App() {
         return (
           <span
             key={item}
-            style={{ padding: "0.5rem", pointer: "cursor", fontSize: "4rem" }}
+            style={{ padding: "0.5rem", cursor: "pointer", fontSize: "4rem" }}
             onClick={() => getMeaning(item)}
           >
             {item}
