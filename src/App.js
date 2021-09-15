@@ -8,8 +8,18 @@ export default function App() {
     "🇧🇷": "Brasil",
     "🇪🇸": "Spain",
     "🇫🇷": "France",
-    "🇮🇳": "India",
-    "🇦🇫": "Afghanistan"
+    "🇦🇫": "Afghanistan",
+    "🇧🇪": "Belgium",
+    "🇨🇦": "Canada",
+    "🇨🇭": "Switzerland",
+    "🇵🇹": "Portugal",
+    "🇶🇦": "Qatar",
+    "🇹🇷": "Turkey",
+    "🇺🇸": "United States of America",
+    "🇾🇪": "Yemen",
+    "🇧🇬": "Bulgaria",
+    "🇦🇪": "United Arab Emirates",
+    "🇮🇳": "India"
   };
   var emojiList = Object.keys(emojiM);
   const [meaning, cMeaning] = useState("");
