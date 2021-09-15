@@ -19,7 +19,9 @@ export default function App() {
     "🇾🇪": "Yemen",
     "🇧🇬": "Bulgaria",
     "🇦🇪": "United Arab Emirates",
+    "🇧🇹": "Bhutan",
     "🇮🇳": "India"
+
   };
   var emojiList = Object.keys(emojiM);
   const [meaning, cMeaning] = useState("");
